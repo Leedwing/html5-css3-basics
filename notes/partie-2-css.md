@@ -1,7 +1,52 @@
 # Partie 2 - Mise en forme de page avec CSS
 
-## Mettre en place le CSS dans le code HTML 
+## 1. Mettre en place le CSS dans le code HTML 
+
+### 1.2. Methodes
 3 methodes
 - importer un fichier .css se trouvant dans un dossier du projet (recommandé car peut commander plusieurs pages à la fois)
 - écrire le css dans la balise ```<style>``` dans l'en-tête de la page html
 - placer du css directement dans la balise concerné dans lattribut **style**
+
+### 1.2. Div et Span
+Balise structurantes juste pour pourvoir effectuer des operations sur des parties précises de la page HTML comme des config css.
+
+### div
+Se place n'importe où je pense
+
+### span 
+Se place dans une balise p -> paragraphe
+
+### 1.3. Example CSS 
+
+```
+/* "*" peut être utilisé pour referencer toutes les balises de la page*/
+* {
+
+}
+
+p {
+    color: blue;
+    font-weight: bold; /* commentaire */
+}
+
+/*Uniquement le paragraphe qui suit un <h1>"*/
+h1 + p {
+    color: red;
+}
+
+/*Uniquement <em> qui se trouvent dans un <h1>"*/
+h1 em {
+    color: green;
+}
+
+/*reference à l'attribut class grâce au symbole "."*/
+.introduction {
+    color: red;
+}
+
+/*reference à l'attribut id grâce au symbole "#"*/
+#introduction { 
+    color: yellowgreen;
+}
+```
