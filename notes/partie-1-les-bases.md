@@ -163,3 +163,8 @@ Une page web est constituée de deux sections principales : un en-tête ( ```<he
 
 ```
 
+## 5. Insérer des images
+- PNG (images transparentes)
+- JPEG (photos)
+- GIF (inages annimées)
+
