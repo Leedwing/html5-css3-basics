@@ -1,0 +1,14 @@
+p {
+    color: blue;
+    font-weight: bold; /* commentaire */
+}
+
+/*reference à l'attribut class grâce au symbole "."*/
+.introduction {
+    color: red;
+}
+
+/*reference à l'attribut id grâce au symbole "#"*/
+#introduction { 
+    color: yellowgreen;
+}
