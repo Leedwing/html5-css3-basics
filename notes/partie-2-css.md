@@ -50,3 +50,5 @@ h1 em {
     color: yellowgreen;
 }
 ```
+
+## 2. Formatez du texte
