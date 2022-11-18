@@ -42,4 +42,57 @@ Le célèbre site [caniuse.com](caniuse.com) tient à jour une liste des fonctio
 
 - Dans ce cours, nous allons apprendre à utiliser les langages HTML et CSS. Nous travaillerons dans un programme appelé « éditeur de texte » (Sublime Text, Notepad++, jEdit, vim…).
 
+<br/>
+<br/>
 
+## 2. Créez votre première page web en HTML
+
+### 2.1. Structure de base d'une page HTML5
+
+```
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Titre</title>
+    </head>
+
+    <body>
+    
+    </body>
+</html>
+```
+
+### Le doctype
+```
+<!DOCTYPE html>
+```
+La toute première ligne s'appelle le doctype. Elle est indispensable car c'est elle qui indique qu'il s'agit bien d'une page web HTML.
+
+### L'en-tête (head)
+Cette section donne quelques informations générales sur la page, comme son titre, l'encodage
+
+### L'encodage
+```
+<meta charset="utf-8" />
+```
+Sans rentrer dans les détails, car cela pourrait vite devenir compliqué, l'encodage indique la façon dont le fichier est enregistré. C'est lui qui détermine comment les caractères spéciaux vont s'afficher (accents, idéogrammes chinois et japonais, caractères arabes, etc.).
+
+### 2.2. Résumé
+- On utilise l'éditeur de texte (Sublime Text, Notepad++, jEdit, vim…) pour créer un fichier ayant l'extension .html  (par exemple : test.html  ). Ce sera notre page web.
+
+- Ce fichier peut être ouvert dans le navigateur web simplement en faisant un double-clic dessus.
+
+- À l'intérieur du fichier, nous écrirons le contenu de notre page, accompagné de balises HTML.
+
+- Les balises peuvent avoir plusieurs formes :
+
+```<balise> </balise>```  : elles s'ouvrent et se ferment pour délimiter le contenu (début et fin d'un titre, par exemple) ;
+
+```<balise />```  : balises orphelines (on ne les insère qu'en un seul exemplaire), elles permettent d'insérer un élément à un endroit précis (par exemple une image).
+
+- - Les balises sont parfois accompagnées d'attributs pour donner des indications supplémentaires (exemple : ```<image nom="photo.jpg" />```  ).
+
+Une page web est constituée de deux sections principales : un en-tête ( ```<head>```  ) et un corps ( ```<body>```  ).
+
+- On peut afficher le code source de n'importe quelle page web en faisant un clic droit puis en sélectionnant Afficher le code source de la page  .
