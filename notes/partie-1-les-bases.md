@@ -96,3 +96,18 @@ Sans rentrer dans les détails, car cela pourrait vite devenir compliqué, l'enc
 Une page web est constituée de deux sections principales : un en-tête ( ```<head>```  ) et un corps ( ```<body>```  ).
 
 - On peut afficher le code source de n'importe quelle page web en faisant un clic droit puis en sélectionnant Afficher le code source de la page  .
+
+
+## 3. Organiser le texte
+```
+<h1>
+<h2>
+<h3>
+<h4>
+<h5>
+<h6>
+<p> <!--indique que le texte est important-->
+<em> <!--indique que le texte est important et est mis en italique-->
+<strong> <!--indique que le texte est important et est mis en gras-->
+<mark> <!--marque le texte en jaune-->
+```
