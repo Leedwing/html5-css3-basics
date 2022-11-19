@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="styles/audio-video.css" />
+    <title>Audio Video</title>
+  </head>
+
+  <body>
+    <h1>Audio Video</h1>
+
+    <!--controls permet d'afficher les bouttons de contrôle du player-->
+    <audio src="farry.mp3" controls autoplay loop></audio>
+
+    <br />
+
+    <!--Multiple sources - le navigateur va choisir la source qu'il sait lire-->
+    <audio controls>
+      <source src="farry.mp3" />
+      <source src="farry.wave" />
+    </audio>
+
+    <br />
+
+    <!--Video-->
+    <video
+      src="farry.mp4"
+      controls
+      loop
+      autoplay
+      width="500"
+      height="300"
+      poster="image par defaut"
+    ></video>
+  </body>
+</html>

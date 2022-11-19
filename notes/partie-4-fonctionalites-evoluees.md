@@ -24,3 +24,14 @@ See [tableaux.css](../styles/tableaux.css)
 See [formulaires.html](../formulaires.html)
 
 See [formulaires.css](../styles/formulaires.css)
+
+
+## 3. Enrichissez votre site avec de la vidéo et de l'audio
+ Visitez [caniuse.com](https://caniuse.com/?search=format) pour savoir quel navigateur est capable de gérer quel format de media.
+
+ Pour convertir les formats de video utilisez [miro video converter](https://miro-video-converter.en.uptodown.com/windows). Facile à utiliser et gratuit.
+
+
+See [audio-video.html](../audio-video.html)
+
+See [audio-video.css](../styles/audio-video.css)
