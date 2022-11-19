@@ -52,3 +52,26 @@ Fonctionalité récente de CSS grâce à laquelle on va pouvoir créer des élem
 See [flexbox.css](../styles/flexbox.css)
 
 See [flexbox.html](../flexbox.html)
+
+
+## 4. Autres techniques de mise en page
+A évité le max possible car Flexbox nous offre des outils plus modernes et puissants.
+
+- Float: necessite du margin pour replacer les autres élements - pas très cool
+- Display
+    - block: l'élément se comportera comme un block et pourra être redimentioné ```<p> <div> <section>```
+    - inline: les éléments seront alignés en inline ```<a> <em> <span>```
+    - inline-block: élément alingné en inline mais pourra être redimentioné ```<select>, <input>```. Avec la proprété **vertical-align** on peut positioner un inline-block de facon appropriée
+    - none: invisible. ```<head>```
+- le **positionnement absolu** : il nous permet de placer un élément n'importe où sur la page (en haut à gauche, en bas à droite, tout au centre, etc.); 
+    - _l'élément se déplace avec la page_
+
+- le **positionnement fixe** : identique au positionnement absolu mais, cette fois, l'élément reste toujours visible, même si on descend plus bas dans la page. C'est un peu le même principe que background-attachment: fixed;  (si vous vous en souvenez encore);
+    - _l'élément ne se déplace pas avec la page et est toujours visible_
+
+- le **positionnement relatif** : permet de décaler l'élément par rapport à sa position normale.
+    - _agit un peu comme du margin_
+
+See [openclassroom.com](https://openclassrooms.com/fr/courses/1603881-creez-votre-site-web-avec-html5-et-css3/1606402-decouvrez-dautres-techniques-de-mise-en-page)
+
+
