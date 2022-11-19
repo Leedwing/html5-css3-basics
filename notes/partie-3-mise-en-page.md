@@ -22,3 +22,6 @@ Les blocks ont
 
 Example: ```<a></a>, <span></span>, <strong></strong>, <em></em>, <img/>```
 
+
+## 3. Mise en page avec Flexbox
+Fonctionalité récente de CSS grâce à laquelle on va pouvoir créer des élements de la page comme des boîtes flexibles qu'on peut agencer les unes à côté des autres comme bon nous semble.
