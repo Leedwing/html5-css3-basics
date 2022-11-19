@@ -1,0 +1,20 @@
+p {
+    color: blue;
+}
+
+/*
+    On gère les règles directement dans le fichier CSS pour toutes les tailles d'écrans. 
+    Plus besoins de specifier l'attribut media dans le fichier html pour l'importer
+*/
+@media screen and (max-width: 1024px) {
+    p {
+        color: red;
+        background-color: black;
+        font-size: 1.2em;
+    }
+}
+
+@media all and (max-device-width: 480px)
+{
+    /* Vos règles CSS pour les mobiles ici */
+}
