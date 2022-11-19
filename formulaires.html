@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="styles/formulaires.css" />
+    <title>Formulaires</title>
+  </head>
+
+  <body>
+    <h1>Formulaires</h1>
+
+    <form method="post" action="traitement-php">
+
+      <p class="form_entry">
+        <label for="recherche">Rechercher:</label>
+        <input type="seach" name="recherche" id="recherche"/>
+      </p>
+
+      <p class="form_entry">
+        <label for="pseudo">Pseudo:</label>
+        <!--si un utilisateur clique sur le label se focus sera porté sur le champ correspondant-->
+        <input
+          type="text"
+          name="pseudo"
+          id="pseudo"
+          maxlength="5"
+          placeholder="ton pseudo"
+          required
+        />
+      </p>
+
+      <p class="form_entry">
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" required/>
+      </p>
+
+      <p class="form_entry">
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email"/>
+      </p>
+
+      <p class="form_entry">
+        <label for="birthdate">Date de naissance:</label>
+        <input type="date" name="birthdate" id="birthdate"/>
+      </p>
+
+      <p class="form_entry">
+        <label for="url">Url:</label>
+        <input type="url" name="url" id="url"/>
+      </p>
+
+      <p class="form_entry">
+        <label for="tel">Telephone:</label>
+        <input type="tel" name="tel" id="tel"/>
+      </p>
+
+      <p class="form_entry">
+        <label for="age">Age:</label>
+        <input type="number" name="age" id="age" min="0" max="100", step="10"/>
+      </p>
+
+      <p class="form_entry">
+        <label for="frequence_voyage">Fréquence de voyage:</label>
+        <input type="range" name="frequence_voyage" id="frequence_voyage" min="0" max="100", step="10"/>
+      </p>
+
+      <p class="form_entry">
+        <label for="couleur_preferee">Couleur préférée:</label>
+        <input type="color" name="couleur_preferee" id="couleur_preferee"/>
+      </p>
+
+      <p class="form_entry">
+        <label for="checkbox">Checkbox:</label>
+        <input type="checkbox" name="checkbox" id="checkbox" checked/>
+      </p>
+
+      <p class="form_entry">
+        Radio - chose one:
+        <br>
+        <label for="europe">Europe</label>
+        <input type="radio" name="continent" id="europe" value="Europe"/>
+        <br>
+        <label for="afrique">Afrique</label>
+        <input type="radio" name="continent" id="afrique" value="Afrique"/>
+      </p>
+
+      <p class="form_entry">
+        <label for="description">Description:</label>
+        <textarea rows="5" cols="30" name="description" id="description">your description here</textarea>
+      </p>
+      <p class="form_entry">
+        <input type="submit" value="Submit">
+      </p>
+    </form>
+  </body>
+</html>

@@ -12,3 +12,15 @@
 - Un tableau peut être divisé en trois sections : ```<thead>```  (en-tête), ```<tbody>```  (corps) et ```<tfoot>```  (bas du tableau). L'utilisation de ces balises n'est pas obligatoire.
 
 - On peut fusionner des cellules horizontalement avec l'attribut colspan  ou verticalement avec rowspan  . Il faut indiquer combien de cellules doivent être fusionnées.
+
+See [tableaux.html](../tableaux.html)
+
+See [tableaux.css](../styles/tableaux.css)
+
+
+## 2. Crßeez des formulaires
+
+
+See [formulaires.html](../formulaires.html)
+
+See [formulaires.css](../styles/formulaires.css)
