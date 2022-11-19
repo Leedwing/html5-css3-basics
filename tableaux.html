@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="styles/tableaux.css" />
+    <title>Taleaux</title>
+  </head>
+
+  <body>
+    <h1>Taleaux</h1>
+    <table>
+      <caption>
+        Titre du tableau
+      </caption>
+      <tr>
+        <th>Nom</th>
+        <th>Age</th>
+        <th>Pays</th>
+      </tr>
+      <tr>
+        <td>Carmen</td>
+        <td>22 ans</td>
+        <td>Espagne</td>
+      </tr>
+      <tr>
+        <td>Diego</td>
+        <td>33 ans</td>
+        <td>Allemagne</td>
+      </tr>
+      <tr>
+        <!--Fusionnez 2 cellules côte à côte-->
+        <td>Denzel</td>
+        <td colspan="2">1 an</td> <!--rowspan pour fusionnez des lignes-->
+      </tr>
+    </table>
+
+    <br />
+
+    <!--Tableau avancé - pas obligatoire - utilisé pour de très gros tableaux-->
+    <table>
+      <thead>
+        <!--En-tête du tableau-->
+        <caption>
+          Titre du tableau
+        </caption>
+        <tr>
+          <th>Nom</th>
+          <th>Age</th>
+          <th>Pays</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <!--Corps du tableau-->
+        <tr>
+          <td>Carmen</td>
+          <td>22 ans</td>
+          <td>Espagne</td>
+        </tr>
+        <tr>
+          <td>Diego</td>
+          <td>33 ans</td>
+          <td>Allemagne</td>
+        </tr>
+      </tbody>
+
+      <tfoot>
+        <!--Pied du tableau-->
+        <tr>
+          <th>Nom</th>
+          <th>Age</th>
+          <th>Pays</th>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>

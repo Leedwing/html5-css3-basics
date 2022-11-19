@@ -1,0 +1,7 @@
+td {
+  border: 1px solid black;
+}
+
+table{
+    border-collapse: collapse; /*pour coller les bordures des <td> du tableau*/
+}
