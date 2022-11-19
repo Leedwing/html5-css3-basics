@@ -76,3 +76,6 @@ p {
     clear: both;
 }
 ```
+
+## 3. Ajouter de la couleur de fond
+
