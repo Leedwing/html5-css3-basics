@@ -79,6 +79,10 @@ p {
 
 ## 3. Ajouter de la couleur de fond
 
+En CSS, si vous appliquez un style à une balise, toutes les balises qui se trouvent à l'intérieur prendront le même style.
+
+C'est d'ailleurs de là que vient le nom « CSS », qui signifie « Cascading Style Sheets », c'est-à-dire « Feuilles de style en cascade ». 
+
 ```
 body {
     /* background-color: rgb(168, 186, 163);
