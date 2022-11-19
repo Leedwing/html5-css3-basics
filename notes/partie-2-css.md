@@ -19,63 +19,15 @@ Se place dans une balise p -> paragraphe
 
 ### 1.3. Example CSS 
 
-```
-/* "*" peut être utilisé pour referencer toutes les balises de la page*/
-* {
+See [style.css](../styles/style.css)
 
-}
-
-p {
-    color: blue;
-    font-weight: bold; /* commentaire */
-}
-
-/*Uniquement le paragraphe qui suit un <h1>"*/
-h1 + p {
-    color: red;
-}
-
-/*Uniquement <em> qui se trouvent dans un <h1>"*/
-h1 em {
-    color: green;
-}
-
-/*reference à l'attribut class grâce au symbole "."*/
-.introduction {
-    color: red;
-}
-
-/*reference à l'attribut id grâce au symbole "#"*/
-#introduction { 
-    color: yellowgreen;
-}
-```
+See [inde.html](../index.html)
 
 ## 2. Formatez du texte
 
-```
-h1 {
-    font-weight: bold;
-    text-decoration: underline;
-    text-align: center;
-  }
-  
+See [style-text.css](../styles/style-text.css)
 
-p {
-  font-size: 1.3em; /* Taille - il est recommander d'utiliser les valeur en unité "em car elle est relative et s'adapte en fonction de la résolution de l'écran"*/
-  font-family: "Sono", "Courier New", Courier, monospace; /*utiliser par ordre de priorité si la police existe ou*/
-  font-style: italic;
-  /*text-align: center;*/
-}
-
-.flottant {
-    float: left;
-}
-
-.dessous {
-    clear: both;
-}
-```
+See [style-text.html](../style-text.html)
 
 ## 3. Ajouter de la couleur de fond
 
@@ -83,41 +35,27 @@ En CSS, si vous appliquez un style à une balise, toutes les balises qui se trou
 
 C'est d'ailleurs de là que vient le nom « CSS », qui signifie « Cascading Style Sheets », c'est-à-dire « Feuilles de style en cascade ». 
 
-```
-body {
-    /* background-color: rgb(168, 186, 163);
-    background-image: url("../images/flottant.png");
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-position: top right; */ /*ne fonctionne que si background-repeat est defini*/
-    background: url("../images/flottant.png") fixed no-repeat top right, url("../images/flottant.png") fixed no-repeat bottom right; /*il est possible d'aligner plusieur backgrounds*/
-}
+See [colors.css](../styles/colors.css)
 
-h1 {
-    /*color: rgb(205, 26, 26);*/
-    color: rgb(205, 26, 26, 0.5); /*4th parameter règle la transparance (opacity)*/
-    /*opacity: 0.5;*/
-}
-```
+See [colors.html](../colors.html)
 
 
 ## 4. Bordures et ombres
 
-```
-h1 {
-    /*border-top, -bottom, -right, -left*/
-    border:3px blue solid; /*solid,dashed,dotted,double,groove,inset,outset,ridge*/
-    border-radius: 20px; /*pour avoir des border eliptique il faut renseigner 2 valeurs 20px / 30px*/
-    /*
-        6px decallage horizontal de l'ombre
-        6px decallage vertical de l'ombre
-        0px l'adoucissement du dégradé (effet 3D plus c'est grand)
-        black couleur de l'ombre
-    */
-    box-shadow: 6px 6px 0px black;
-}
+See [bordures.css](../styles/bordures.css)
 
-p {
-    text-shadow: 6px 6px 16px black; /*pour des ombres directement sur le text*/
-}
-```
+See [bordures.html](../bordures.html)
+
+
+## 5. Créer de apparances dynamiques
+- En CSS, on peut modifier l'apparence de certaines sections dynamiquement, après le chargement de la page, lorsque certains évènements se produisent. On utilise pour cela les pseudo-formats.
+
+- Le pseudo-format :hover  permet de changer l'apparence au survol (par exemple : a:hover  pour modifier l'apparence des liens lorsque la souris pointe dessus).
+
+- Le pseudo-format :active  modifie l'apparence des liens au moment du clic, :visited  lorsqu'un lien a déjà été visité.
+
+- Le pseudo-format :focus  permet de modifier l'apparence d'un élément sélectionné.
+
+See [pseudo-format.css](../styles/pseudo-format.css)
+
+See [pseudo-format.html](../pseudo-format.html)
