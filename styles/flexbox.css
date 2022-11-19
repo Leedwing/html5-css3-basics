@@ -6,7 +6,7 @@
 
     height: 150px;
     overflow: scroll;
-    align-items: center;/*Ne fonctionne pas sans le height ou le width en fonction du flex direction*/
+    align-items: center;/*Ne fonctionne pas sans le height ou le width en fonction du flex direction - alignement sur l'axe secondaire*/
     
     border: 2px solid black;
 }
@@ -18,15 +18,18 @@
 
 .element:nth-child(1) {
     background-color: orange;
-    margin: auto;
+    /*margin: auto; /*centre l'élément*/
+    flex: 1; /*prend tout l'espace restant*/
 }
 
 .element:nth-child(2) {
     background-color: blue;
+    /*order: 3;*/
 }
 
 .element:nth-child(3) {
     background-color: green;
+    flex: 2; /*va grossir 2 fois plus que le premier (flex: 1)*/
 }
 
 .element:nth-child(4) {

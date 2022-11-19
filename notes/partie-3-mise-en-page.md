@@ -22,6 +22,33 @@ Les blocks ont
 
 Example: ```<a></a>, <span></span>, <strong></strong>, <em></em>, <img/>```
 
+See [block-inline.css](../styles/block-inline.css)
+
+See [flexbox.html](../block-inline.html)
+
 
 ## 3. Mise en page avec Flexbox
 Fonctionalité récente de CSS grâce à laquelle on va pouvoir créer des élements de la page comme des boîtes flexibles qu'on peut agencer les unes à côté des autres comme bon nous semble.
+
+- Il existe plusieurs techniques pour positionner les blocs sur la page. Flexbox est la technique la plus récente et de loin la plus puissante, que je vous recommande d'utiliser.
+
+- Le principe de Flexbox est d'avoir un conteneur, avec plusieurs éléments à l'intérieur. Avec **display: flex**; sur le conteneur, les éléments à l'intérieur sont agencés en mode Flexbox (horizontalement, par défaut).
+
+- Flexbox peut gérer toutes les directions. Avec **flex-direction**  , on peut indiquer si les éléments sont agencés horizontalement (par défaut) ou verticalement. Cela définit ce qu'on appelle l'axe principal.
+
+- L'alignement des éléments se fait sur l'axe principal avec **justify-content** , et sur l'axe secondaire avec **align-items**.
+
+- Avec **flex-wrap**  , on peut autoriser les éléments à revenir à la ligne s'ils n'ont plus d'espace.
+
+- S'il y a plusieurs lignes, on peut indiquer comment les lignes doivent se répartir entre elles avec **align-content**. 
+
+- Chaque élément peut être réagencé en CSS avec **order** (pas besoin de toucher au code HTML !).
+
+- Avec la super-propriété **flex**  , on peut autoriser nos éléments à occuper plus ou moins d'espace restant.
+
+- Flexbox, c'est cool.
+
+
+See [flexbox.css](../styles/flexbox.css)
+
+See [flexbox.html](../flexbox.html)
