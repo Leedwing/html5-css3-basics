@@ -76,6 +76,13 @@ See [openclassroom.com](https://openclassrooms.com/fr/courses/1603881-creez-votr
 
 
 ## 5. Créer un site web pas à pas
+Le bouton ne devrait-il pas se placer en bas à droite de la page ?
+
+Non, souvenez-vous ce que je vous avais dit : si un bloc est positionné en absolu dans un autre bloc lui-même positionné en absolu, fixe ou relatif, alors il se positionne à l'intérieur de ce bloc.
+Notre bannière est positionnée en relatif (sans décalage). Comme le bouton est positionné en absolu à l'intérieur, il se place donc en bas à droite de la bannière !
+
+C'est une technique particulièrement utile et puissante dans la réalisation d'un design, souvenez-vous-en !
+
 See [index.html](../index.html)
 
 See [index.css](../styles/style.css)
