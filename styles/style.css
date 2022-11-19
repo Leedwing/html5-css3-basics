@@ -52,6 +52,7 @@ header h1 {
   font-size: 2.5em;
   font-weight: normal;
   margin-left: 10px; /*margin: 0 0 0 10px;*/
+  margin-bottom: 0px;
 }
 
 header h2 {
@@ -64,6 +65,7 @@ header h2 {
 nav ul {
   list-style-type: none; /*pour retirer les puces(*) de la liste*/
   display: flex;
+  margin-bottom: 0px;
 }
 
 nav li {
@@ -88,8 +90,39 @@ nav a:hover {
     margin-top: 15px;
     height: 200px;
     border-radius: 5px;
-    background: url('../images/sanfrancisco.jpg');
+    background: url('../images/sanfrancisco.jpg') no-repeat;
+    /*
+        Permet de mettre en absolue la description de la bannière qui se trouve à l'intérieur de ce conteneur.
+        La position des elements se trouvant dans ce conteneur (banniere_image) sera relative au conteneur.
+    */
     position: relative;
     box-shadow: 0px 4px 4px #1c1a19;
     margin-bottom: 25px;
+}
+
+#banniere_description {
+    position: absolute;
+    bottom: 0; /*grâce à la bannière qui a été placée en position relative on peut placer la description au fond de la bannière*/
+    border-radius: 0px 0px 5px 5px;
+    width: 99.4%;
+    height: 33px;
+    padding-top: 15px;
+    padding-left: 5px;
+    background-color: rgba(24, 24, 24, 0.8);
+    color: white;
+    font-size: 0.8em;
+}
+
+.bouton_rouge {
+    height: 17px;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    background-color: #b11518;
+    border-radius: 5px;
+    font-size: 1.2em;
+    text-align: center;    
+    padding: 6px;
+    color: white;
+    text-decoration: none;
 }
