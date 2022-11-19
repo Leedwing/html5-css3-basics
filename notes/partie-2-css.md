@@ -99,3 +99,25 @@ h1 {
     /*opacity: 0.5;*/
 }
 ```
+
+
+## 4. Bordures et ombres
+
+```
+h1 {
+    /*border-top, -bottom, -right, -left*/
+    border:3px blue solid; /*solid,dashed,dotted,double,groove,inset,outset,ridge*/
+    border-radius: 20px; /*pour avoir des border eliptique il faut renseigner 2 valeurs 20px / 30px*/
+    /*
+        6px decallage horizontal de l'ombre
+        6px decallage vertical de l'ombre
+        0px l'adoucissement du dégradé (effet 3D plus c'est grand)
+        black couleur de l'ombre
+    */
+    box-shadow: 6px 6px 0px black;
+}
+
+p {
+    text-shadow: 6px 6px 16px black; /*pour des ombres directement sur le text*/
+}
+```
