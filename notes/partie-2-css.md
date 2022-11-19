@@ -52,3 +52,27 @@ h1 em {
 ```
 
 ## 2. Formatez du texte
+
+```
+h1 {
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
+  }
+  
+
+p {
+  font-size: 1.3em; /* Taille - il est recommander d'utiliser les valeur en unité "em car elle est relative et s'adapte en fonction de la résolution de l'écran"*/
+  font-family: "Sono", "Courier New", Courier, monospace; /*utiliser par ordre de priorité si la police existe ou*/
+  font-style: italic;
+  /*text-align: center;*/
+}
+
+.flottant {
+    float: left;
+}
+
+.dessous {
+    clear: both;
+}
+```
