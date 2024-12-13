@@ -13,17 +13,17 @@
 
 - On peut fusionner des cellules horizontalement avec l'attribut colspan  ou verticalement avec rowspan  . Il faut indiquer combien de cellules doivent être fusionnées.
 
-See [tableaux.html](../tableaux.html)
+See [tableaux.html](tableaux.html)
 
-See [tableaux.css](../styles/tableaux.css)
+See [tableaux.css](styles/tableaux.css)
 
 
 ## 2. Créez des formulaires
 
 
-See [formulaires.html](../formulaires.html)
+See [formulaires.html](formulaires.html)
 
-See [formulaires.css](../styles/formulaires.css)
+See [formulaires.css](styles/formulaires.css)
 
 
 ## 3. Enrichissez votre site avec de la vidéo et de l'audio
@@ -31,9 +31,9 @@ See [formulaires.css](../styles/formulaires.css)
 
  Pour convertir les formats de video utilisez [miro video converter](https://miro-video-converter.en.uptodown.com/windows). Facile à utiliser et gratuit.
 
-See [audio-video.html](../audio-video.html)
+See [audio-video.html](audio-video.html)
 
-See [audio-video.css](../styles/audio-video.css)
+See [audio-video.css](styles/audio-video.css)
 
 
 ### 3.1. Résumé
@@ -109,6 +109,6 @@ Pour cibler les smartphones, plutôt que d'utiliser max-width  , il peut être i
 }
 ```
 
-See [media-query.html](../media-query.html)
+See [media-query.html](media-query.html)
 
-See [media-query.css](../styles/media-query.css)
+See [media-query.css](styles/media-query.css)
