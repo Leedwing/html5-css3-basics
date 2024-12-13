@@ -19,15 +19,15 @@ Se place dans une balise p -> paragraphe
 
 ### 1.3. Example CSS 
 
-See [style.css](../styles/style.css)
+See [style.css](styles/style.css)
 
-See [inde.html](../index.html)
+See [inde.html](index.html)
 
 ## 2. Formatez du texte
 
-See [style-text.css](../styles/style-text.css)
+See [style-text.css](styles/style-text.css)
 
-See [style-text.html](../style-text.html)
+See [style-text.html](style-text.html)
 
 ## 3. Ajouter de la couleur de fond
 
@@ -35,16 +35,16 @@ En CSS, si vous appliquez un style à une balise, toutes les balises qui se trou
 
 C'est d'ailleurs de là que vient le nom « CSS », qui signifie « Cascading Style Sheets », c'est-à-dire « Feuilles de style en cascade ». 
 
-See [colors.css](../styles/colors.css)
+See [colors.css](styles/colors.css)
 
-See [colors.html](../colors.html)
+See [colors.html](colors.html)
 
 
 ## 4. Bordures et ombres
 
-See [bordures.css](../styles/bordures.css)
+See [bordures.css](styles/bordures.css)
 
-See [bordures.html](../bordures.html)
+See [bordures.html](bordures.html)
 
 
 ## 5. Créer de apparances dynamiques
@@ -56,6 +56,6 @@ See [bordures.html](../bordures.html)
 
 - Le pseudo-format :focus  permet de modifier l'apparence d'un élément sélectionné.
 
-See [pseudo-format.css](../styles/pseudo-format.css)
+See [pseudo-format.css](styles/pseudo-format.css)
 
-See [pseudo-format.html](../pseudo-format.html)
+See [pseudo-format.html](pseudo-format.html)
