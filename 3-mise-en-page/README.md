@@ -3,7 +3,7 @@
 ## 1. Structurer votre page
 Avec une bonne mise en page de votre site (ceci est l'en-tête de la page, ceci est le menu, etc) votre code est bien organisé mais surtout votre page est bien reférencée sur les moteurs de recherche.
 
-![](../images/page-structure.png)
+![](images/page-structure.png)
 
 
 ## 2. Le modèle des boîtes
@@ -22,9 +22,9 @@ Les blocks ont
 
 Example: ```<a></a>, <span></span>, <strong></strong>, <em></em>, <img/>```
 
-See [block-inline.css](../styles/block-inline.css)
+See [block-inline.css](styles/block-inline.css)
 
-See [flexbox.html](../block-inline.html)
+See [flexbox.html](block-inline.html)
 
 
 ## 3. Mise en page avec Flexbox
@@ -49,9 +49,9 @@ Fonctionalité récente de CSS grâce à laquelle on va pouvoir créer des élem
 - Flexbox, c'est cool.
 
 
-See [flexbox.css](../styles/flexbox.css)
+See [flexbox.css](styles/flexbox.css)
 
-See [flexbox.html](../flexbox.html)
+See [flexbox.html](flexbox.html)
 
 
 ## 4. Autres techniques de mise en page
@@ -83,6 +83,6 @@ Notre bannière est positionnée en relatif (sans décalage). Comme le bouton es
 
 C'est une technique particulièrement utile et puissante dans la réalisation d'un design, souvenez-vous-en !
 
-See [index.html](../index.html)
+See [index.html](index.html)
 
-See [index.css](../styles/style.css)
+See [index.css](styles/style.css)
